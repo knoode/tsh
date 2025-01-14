@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 #include "util.h"
 
 int main()
 {
-    // Run shell loop
     tsh_loop();
+    
+    return 0;
 }
